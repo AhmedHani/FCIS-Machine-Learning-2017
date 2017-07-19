@@ -64,7 +64,7 @@ train_x, train_y, test_x, test_y = np.asarray(train_x), np.asarray(train_y), np.
 train_x, means, stds = standardize(train_x)
 test_x = standardize(test_x, means, stds)
 
-lr = LogisticRegression(learning_rate=0.1, epochs=500)
+lr = LogisticRegression(learning_rate=0.1, epochs=1)
 lr.fit(train_x, train_y)
 
 plt.plot(range(1, len(lr.cost_) + 1), np.log10(lr.cost_))
@@ -77,10 +77,4 @@ plt.show()
 
 predicted_test = lr.predict(test_x)
 
-correct = 0
-
-for i in range(0, len(predicted_test)):
-    if predicted_test[i] == test_y[i]:
-        correct += 1
-
-print("Test Accuracy: " + str(((correct / len(predicted_test)) * 100.0)) + "%")
+print("Test Accuracy: " + str(((sum([predicted_test[i] == test_y[i] for i in range(0, len(predicted_test))]) / len(predicted_test)) * 100.0)) + "%")
