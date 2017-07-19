@@ -37,9 +37,9 @@ class LogisticRegression(object):
         return self.__sigmoid(X)
 
     def predict(self, X):
-        z = self.__net_input(X)
-
-        return np.where(self.__activation(z) >= 0.5, 1, 0)
+        # 1- Calculate the net input W^T * x
+        # 2- Return the activated values (0 or 1 classes) 
+        pass
 
 reader = CsvReader("./data/Iris.csv")
 
