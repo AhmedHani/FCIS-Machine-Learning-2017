@@ -64,13 +64,13 @@ train_x, train_y, test_x, test_y = np.asarray(train_x), np.asarray(train_y), np.
 train_x, means, stds = standardize(train_x)
 test_x = standardize(test_x, means, stds)
 
-lr = LogisticRegression(learning_rate=0.1, epochs=1)
+lr = LogisticRegression(learning_rate=0.1, epochs=50)
 lr.fit(train_x, train_y)
 
 plt.plot(range(1, len(lr.cost_) + 1), np.log10(lr.cost_))
 plt.xlabel('Epochs')
 plt.ylabel('Cost')
-plt.title('Logistic Regression - Learning rate 0.01')
+plt.title('Logistic Regression - Learning rate 0.1')
 
 plt.tight_layout()
 plt.show()
