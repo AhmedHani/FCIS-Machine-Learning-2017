@@ -59,7 +59,7 @@ with tf.Session() as sess:
 
     print("Optimization Finished!")
 
-    plt.title("Learning Curve using mean squared error cost function")
+    plt.title("Learning Curve")
     plt.xlabel("Number of Epochs")
     plt.ylabel("Cost")
     plt.plot(epochs, errors)
