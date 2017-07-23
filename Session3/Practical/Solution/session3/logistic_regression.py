@@ -1,5 +1,5 @@
-from session3.data_reader.reader import CsvReader
-from session3.util import *
+from data_reader.reader import CsvReader
+from util import *
 import numpy as np
 import matplotlib.pyplot as plt
 
