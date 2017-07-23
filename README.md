@@ -18,11 +18,11 @@ Finally, the book is MIT's Deep Learning book
 http://www.deeplearningbook.org/ . You can check the book chapters in HTML
 
 
-### Session#1:
+## Session#1:
 
 It was just introduction. You can just read this http://blog.hackerearth.com/explaining-basics-of-machine-le… and the presentation
 
-### Session#2:
+## Session#2:
 
 https://www.youtube.com/watch?v=kHwlB_j7Hkc
 
@@ -41,7 +41,7 @@ https://www.youtube.com/watch?v=GtSf2T6Co80
 https://www.youtube.com/watch?v=OS7KXu0447I
 
 
-### Session#3:
+## Session#3:
 
 https://www.youtube.com/watch?v=-la3q9d7AKQs
 
