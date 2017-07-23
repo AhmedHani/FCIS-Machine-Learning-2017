@@ -23,6 +23,7 @@ Session#1:
 It was just introduction. You can just read this http://blog.hackerearth.com/explaining-basics-of-machine-le… and the presentation
 
 Session#2 videos:
+
 https://www.youtube.com/watch?v=kHwlB_j7Hkc
 https://www.youtube.com/watch?v=yuH4iRcggMw
 https://www.youtube.com/watch?v=yR2ipCoFvNo
@@ -33,6 +34,7 @@ https://www.youtube.com/watch?v=GtSf2T6Co80
 https://www.youtube.com/watch?v=OS7KXu0447I
 
 Session#3 videos:
+
 https://www.youtube.com/watch?v=-la3q9d7AKQs
 https://www.youtube.com/watch?v=t1IT5hZfS48
 https://www.youtube.com/watch?v=F_VG4LNjZZw
@@ -40,7 +42,6 @@ https://www.youtube.com/watch?v=HIQlmHxI6-0
 https://www.youtube.com/watch?v=TTdcc21Ko9A
 https://www.youtube.com/watch?v=6vO3DVJlsK4
 https://www.youtube.com/watch?v=-EIfb6vFJzc
-
 For Softmax regression: http://ufldl.stanford.edu/wiki/index.php/Softmax_Regression
 
 
