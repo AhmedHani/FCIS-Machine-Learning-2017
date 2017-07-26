@@ -54,16 +54,16 @@ titanic_features, titanic_labels = reader.get_titanic_data()
 print(len(titanic_features))
 print(len(titanic_labels))
 
-titanic_labels = to_onehot(titanic_labels)
-titanic_labels = list(map(lambda v: v.index(max(v)), titanic_labels))
+#titanic_labels = to_onehot(titanic_labels)
+#titanic_labels = list(map(lambda v: v.index(max(v)), titanic_labels))
 
-train_x, train_y, test_x, test_y = titanic_features[0:712], titanic_labels[0:712], titanic_features[0:], titanic_labels[0:]
+train_x, train_y, test_x, test_y = titanic_features[0:712], titanic_labels[0:712], titanic_features[712:], titanic_labels[712:]
 train_x, train_y, test_x, test_y = np.asarray(train_x), np.asarray(train_y), np.asarray(test_x), np.asarray(test_y)
 
 train_x, means, stds = standardize(train_x)
 test_x = standardize(test_x, means, stds)
 
-lr = LogisticRegression(learning_rate=0.1, epochs=50)
+lr = LogisticRegression(learning_rate=0.001, epochs=1000)
 lr.fit(train_x, train_y)
 
 plt.plot(range(1, len(lr.cost_) + 1), np.log10(lr.cost_))
