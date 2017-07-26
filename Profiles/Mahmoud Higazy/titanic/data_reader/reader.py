@@ -26,12 +26,12 @@ class CsvReader(object):
                 line_tokens = line.strip().split(',')
 
                 # iris_features.append(list(map(lambda v: float(v), line_tokens[1:-1])))
-                temp_features.append(list(map(lambda v: str(v), [line_tokens[2], line_tokens[5], line_tokens[6], line_tokens[7], line_tokens[8]])))
-                titanic_labels.append(str(line_tokens[1]))
+                temp_features.append(list(map(lambda v: str(v), [line_tokens[2], line_tokens[5], line_tokens[6], line_tokens[7], line_tokens[8], line_tokens[10], line_tokens[12]])))
+                titanic_labels.append(int(line_tokens[1]))
 
         for row in temp_features:
             temp = []
-            # pclass - sex - age - sibsp - parch
+            # pclass - sex - age - sibsp - parch - fare - embarked
             temp.append(float(row[0]))
             if row[1] == "male":
                 temp.append(0.0)
@@ -43,6 +43,13 @@ class CsvReader(object):
                 temp.append(0.0)
             temp.append(float(row[3]))
             temp.append(float(row[4]))
+            temp.append(float(row[5]))
+            if row[6] == 'C':
+                temp.append(0.0)
+            elif row[6] == 'S':
+                temp.append(1.0)
+            else :
+                temp.append(2.0)
             titanic_features.append(temp)
             print(row)
 
