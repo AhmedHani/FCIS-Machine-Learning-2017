@@ -60,3 +60,26 @@ https://www.youtube.com/watch?v=-EIfb6vFJzc
 For Softmax regression: http://ufldl.stanford.edu/wiki/index.php/Softmax_Regression
 
 
+## Session#4:
+
+https://www.youtube.com/watch?v=l0foB9mUrc4
+
+https://www.youtube.com/watch?v=YRMvQuutgS8
+
+https://www.youtube.com/watch?v=0T57_yjjB58
+
+https://www.youtube.com/watch?v=d6nFTN081S8
+
+https://www.youtube.com/watch?v=mI6jTc-8sUY
+
+https://www.youtube.com/watch?v=Q0mTl9dQ4_I
+
+https://www.youtube.com/watch?v=tIovUOirJkE
+
+https://www.youtube.com/watch?v=Z8jzCvb62e8
+
+https://www.youtube.com/watch?v=LOc_y67AzCA
+
+https://www.youtube.com/watch?v=vlSI79ringA
+
+
