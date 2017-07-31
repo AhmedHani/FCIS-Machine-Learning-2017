@@ -83,3 +83,20 @@ https://www.youtube.com/watch?v=LOc_y67AzCA
 https://www.youtube.com/watch?v=vlSI79ringA
 
 
+Session#5
+
+Original Paper: https://arxiv.org/pdf/1310.4546.pdf
+
+
+https://www.youtube.com/watch?v=ERibwqs9p38
+
+https://ahmedhanibrahim.wordpress.com/2017/04/25/thesis-tutorials-i-understanding-word2vec-for-word-embedding-i/
+
+https://ahmedhanibrahim.wordpress.com/2017/04/27/thesis-tutorials-ii-understanding-word2vec-for-word-embedding-ii/
+
+Data Standardization & Cross Entropy: https://ahmedhanibrahim.wordpress.com/2014/10/10/data-normalization-and-standardization-for-neural-networks-output-classification/
+
+
+
+
+
