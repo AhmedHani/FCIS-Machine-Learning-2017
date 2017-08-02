@@ -18,11 +18,11 @@ Finally, the book is MIT's Deep Learning book
 http://www.deeplearningbook.org/ . You can check the book chapters in HTML
 
 
-## Session#1:
+## Session#1
 
 It was just introduction. You can just read this http://blog.hackerearth.com/explaining-basics-of-machine-le… and the presentation
 
-## Session#2:
+## Session#2
 
 https://www.youtube.com/watch?v=kHwlB_j7Hkc
 
@@ -41,7 +41,7 @@ https://www.youtube.com/watch?v=GtSf2T6Co80
 https://www.youtube.com/watch?v=OS7KXu0447I
 
 
-## Session#3:
+## Session#3
 
 https://www.youtube.com/watch?v=-la3q9d7AKQs
 
@@ -60,7 +60,7 @@ https://www.youtube.com/watch?v=-EIfb6vFJzc
 For Softmax regression: http://ufldl.stanford.edu/wiki/index.php/Softmax_Regression
 
 
-## Session#4:
+## Session#4
 
 https://www.youtube.com/watch?v=l0foB9mUrc4
 
@@ -97,6 +97,17 @@ https://ahmedhanibrahim.wordpress.com/2017/04/27/thesis-tutorials-ii-understandi
 Data Standardization & Cross Entropy: https://ahmedhanibrahim.wordpress.com/2014/10/10/data-normalization-and-standardization-for-neural-networks-output-classification/
 
 
+Session#6
 
+https://www.youtube.com/watch?v=_Ex1Ur85AVs
 
+https://www.youtube.com/watch?v=ARQ6PZh8vgE
+
+http://ufldl.stanford.edu/tutorial/unsupervised/Autoencoders/
+
+http://www.deeplearningbook.org/contents/autoencoders.html
+
+http://deeplearning.net/tutorial/dA.html
+
+Overfitting and Underfitting: https://www.youtube.com/watch?v=j9_yzC-x-js
 
