@@ -97,7 +97,7 @@ https://ahmedhanibrahim.wordpress.com/2017/04/27/thesis-tutorials-ii-understandi
 Data Standardization & Cross Entropy: https://ahmedhanibrahim.wordpress.com/2014/10/10/data-normalization-and-standardization-for-neural-networks-output-classification/
 
 
-Session#6
+## Session#6
 
 https://www.youtube.com/watch?v=_Ex1Ur85AVs
 
