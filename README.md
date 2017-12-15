@@ -20,7 +20,7 @@ http://www.deeplearningbook.org/ . You can check the book chapters in HTML
 
 ## Session#1
 
-It was just introduction. You can just read this http://blog.hackerearth.com/explaining-basics-of-machine-le… and the presentation
+It was just introduction. You can just read this http://blog.hackerearth.com/explaining-basics-of-machine-learning-algorithms-applications and the presentation
 
 ## Session#2
 
